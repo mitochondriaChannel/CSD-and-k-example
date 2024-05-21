@@ -40,8 +40,7 @@ def index_2time(time, t):
 mCSD =  methods_CSD()
 
 #open file
-path =  'formas/XTP/05-06-17XTP/'
-file = path + 'snake_img_35_m3.txt'
+file ='snake_img_35_m3.txt'
 Xit, Yit, Time = open_file(file)
 XitI, YitI = mCSD.expDataInterpolator(Xit, Yit, Time) #interpolate experimental data so the mitochondria have the same amount of beads per frame
 
