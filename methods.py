@@ -8,7 +8,6 @@ Created on Mon May 20 17:41:41 2024
 
 
 import numpy as np
-from metodCurv import metodos_curvaturas
 from scipy.optimize import curve_fit
 import math
 
