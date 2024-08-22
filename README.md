@@ -3,7 +3,7 @@ The Cumulative Square Displacement is a novel quantitative tool that enables the
 stationary fluctuations caused by thermal jittering. We use this method to explore the forces affecting mitochondria within living cells; however, this approach can be expanded to other organelles or
 biopolymers. The details of this can be found in "Deciphering the intracellular forces shaping mitochondrial motion" by Agustina Belén Fernández Casafuz, Azul María Brigante, María Cecilia De Rossi, Alejandro Gabriel Monastra and Luciana Bruno (currently in peer review). 
 
-This repository contains the executable code necessary to obtain the CSD graph and calculate the number of events of active forces. The example corresponds to the time series of a mitochondrion in a *Xenopus laevis* melanocyte, shown in Fig. 3(b). 
+This repository contains the executable code necessary to obtain the CSD graph and calculate the number of events of active forces. All code is written in Python. The libraries needed are: numpy, pandas, itertools, matplotlib and seaborn.
 
 The main script analyzes the data using the functions defined in **methods.py**. 
 
